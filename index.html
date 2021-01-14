@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Form Create Account</title>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+    rel="stylesheet"/>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+    rel="stylesheet"/>
+    <style>
+      body {
+        background-color: #00b5ddff;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h1
+    style="font-family: 'Roboto', sans-serif;
+    margin: auto;
+    width: 25%;">
+    Create an Account
+    </h1>
+    <table style="margin: auto;
+    width: 25%">
+      <form>
+        <tr>
+          <td>
+            <label for="fname">First Name:</label>
+            <br />
+            <input type="text" id="fname" />
+          </td>
+          <td>
+            <label for="lname">Last Name:</label>
+            <br />
+            <input type="text" id="lname" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="gmail">Email:</label>
+            <br />
+            <input type="text" id="gmail" />
+          </td>
+          <td>
+            <label for="age">Are you 13+ years old?</label>
+            <br />
+            <input id="yes" type="radio" name="age"/>
+            <label for="yes">Yes</label>
+            <input id="no" type="radio" name="age"/>
+            <label for="no">No</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="checkbox" id="agree" />
+            <label for="agree" style="font-size: 70%;">
+            I agree to the terms and conditions
+            </label>
+          </td>
+          <td>
+            <input
+            style=
+            "background-color: #f9cb07ff;
+            color:white;
+            border: none;
+            border-radius: 30px;
+            height: 30px;
+            width: 125px;"
+            type="submit"
+            value="Create Account"
+            />
+          </td>
+        </tr>
+    </table>
+  </form>
+  </body>
+</html>
